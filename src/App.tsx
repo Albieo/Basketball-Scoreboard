@@ -8,7 +8,6 @@ function App() {
   const handleClickHome = (point: number) => setHome(home + point)
   const handleClickGuest = (point: number) => setGuest(guest + point)
 
-
   return (
     <>
       <div className="relative flex min-h-screen flex-row justify-center gap-24 overflow-hidden bg-blue-950 py-6 sm:py-12">
